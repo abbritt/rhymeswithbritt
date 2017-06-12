@@ -1,0 +1,114 @@
+/*!
+ * Bootstrap v2.3.1 edits by Britt
+ */
+ 
+ 
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400');
+ 
+ 
+ body{
+background-color: #EEE0B7;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+  *zoom: 1;
+}
+
+.container-fluid:before,
+.container-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container-fluid:after {
+  clear: both;
+}
+
+
+.brittpic {
+	width: 330px;
+    height: 330px;
+    z-index: 0;
+    background-image: url('https://image.ibb.co/kaiASa/bbbritt.png');
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+
+}
+
+/* visited link */
+a:visited {
+	color: white;
+	text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: white;
+	text-decoration: none;
+
+}
+
+p{
+margin-bottom: -30px;
+font-size:      40px;
+font-family: 'Pacifico', serif;
+font-weight: 400;
+color: #F4A392;
+text-indent: 9em;
+}
+
+.maintext {
+margin: 0 auto;
+color: #473e3e;
+width: 600px;
+z-index: 1;
+font-family: 'Raleway', sans-serif;
+font-weight: 300; 
+margin-top: -80px;
+}
+
+.lilstrip{
+position: fixed;
+height: 60px; 
+bottom:0%;
+width:100%; 
+z-index: 0;
+background-color: #383232; 
+border-top: 5px solid #473e3e;
+}
